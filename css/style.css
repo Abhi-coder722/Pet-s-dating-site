@@ -1,0 +1,162 @@
+body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-align: center;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+} /*Here we aren't using the whitw section because there is only one white section*/
+
+/* Title section  */
+#title {
+    color: aliceblue;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 17%;
+}
+h1,h2,h3{
+    font-weight: bolder;
+}
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 ,.cta-heading{
+    font-size: 3rem;
+    line-height: 2;
+}
+
+p {
+    color: #404040;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation bar */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.navbar {
+    padding: 0 0 3rem;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 21px;
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 2% 0%;
+}
+
+/* Title image */
+.title-image {
+    width: 60%;
+    /* transform : rotate is a function in css which is used to rotate any image by the degrees given in the brackets */
+    transform: rotate(25deg);
+    /* z-index: -1; */
+    /* refer pdf for the flow chart  */
+    position: absolute;
+    margin-right: 40%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* features section  */
+#features {
+    
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+    /* NOTE z index doesn't apply unless you have your position as relative , absolute or fixed ..  */
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+/* coloring the font awesome styles used  */
+.fa-solid {
+    color: #f44862;
+    margin-bottom: 8%;
+}
+
+/* changing the hovered state */
+.fa-solid:hover {
+    color: #ff0026;
+}
+
+#testimonials {
+    color: #fff;
+}
+
+#press {
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Making our site reponsive nowwwwww */
+
+@media (max-width:1148px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        margin-top: 20px;
+        margin-left: 120px;
+        transform: rotate(0);
+    }
+}
+
+/* last section cta  */
+#cta{
+    padding: 10% 30% ;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.icons{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 20px;
+}
+.fa-envelope{
+    color:rgb(53, 53, 53)
+}
+.cls{
+    padding: 0 10px ;
+}
+
+footer{
+    height: 20px;
+    margin-bottom: 0;
+}
